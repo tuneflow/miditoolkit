@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='miditoolkit',
-    version='0.1.16',
+    name='miditoolkit_light',
+    version='0.1.18',
     description='',
-    author='wayne391',
-    author_email='s101062219@gmail.com',
-    url='https://github.com/YatingMusic/miditoolkit',
+    author='TuneFlow',
+    author_email='contact@info.tuneflow.com',
+    url='https://github.com/tuneflow/miditoolkit',
     packages=find_packages(),
     package_data={'': ['examples_data/*']},
     classifiers=[

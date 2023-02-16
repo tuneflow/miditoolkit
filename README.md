@@ -1,11 +1,11 @@
-# miditoolkit
+# miditoolkit-light
 
-A python package for working with MIDI data. 
+A miditoolkit fork that drops the non-essential dependencies and improve compatibility.
 
 * Version: 0.1.16
 * Latest update date: 2022/4/18
 
-The usage is similar to [pretty_midi](https://github.com/craffel/pretty-midi), while miditoolkit handles MIDI events in [symbolic timing](https://mido.readthedocs.io/en/latest/midi_files.html#about-the-time-attribute) (**ticks**, instead of seconds). Furthermore, the toolkit can parse MIDI tracks into **piano-rolls** for computation or visualization purposes.
+The usage is similar to [pretty_midi](https://github.com/craffel/pretty-midi), while miditoolkit handles MIDI events in [symbolic timing](https://mido.readthedocs.io/en/latest/midi_files.html#about-the-time-attribute) (**ticks**, instead of seconds). Furthermore, the toolkit can parse MIDI tracks into **piano-rolls** for computation purposes.
 
 ## Main Features
 * MIDI
@@ -28,7 +28,7 @@ The usage is similar to [pretty_midi](https://github.com/craffel/pretty-midi), w
         * notes to piano-rolls
         * piano-rolls to notes
         * chromagram
-    * Visualization
+    <!-- * Visualization -->
 * External Library
    * [structure analysis](https://github.com/wayne391/sf_segmenter)
    
