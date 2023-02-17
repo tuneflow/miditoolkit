@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='miditoolkit_light',
-    version='0.1.18',
+    version='0.1.19',
     description='',
     author='TuneFlow',
     author_email='contact@info.tuneflow.com',
